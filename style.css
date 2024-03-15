@@ -1,0 +1,11 @@
+* {
+  scrollbar-width: thin;
+}
+
+#about,
+#academics,
+#events,
+#community,
+#contact {
+  scroll-margin-top: 100px;
+}
