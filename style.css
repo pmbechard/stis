@@ -9,3 +9,14 @@
 #contact {
   scroll-margin-top: 100px;
 }
+
+/* Change the scroll-margin-top to zero in mobile view */
+@media screen and (max-width: 500px) {
+  #about,
+  #academics,
+  #events,
+  #community,
+  #contact {
+    scroll-margin-top: 150px;
+  }
+}
